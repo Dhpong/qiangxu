@@ -1,0 +1,23 @@
+
+
+.slider-slide {
+	height: 100%;	
+	color: #000; 
+	background-color: #fff; text-align: center; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; }
+
+
+
+
+button{
+	position: absolute;
+    bottom: 16%;
+    left: 21%;
+    border: 0;
+    border-radius: 5px;
+    padding: 4% 15%;
+    background-color: #eee;
+    font-size: 18px;
+    font-weight:bold;
+    color:#aaa;
+}

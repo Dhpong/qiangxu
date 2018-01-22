@@ -1,0 +1,153 @@
+
+	<div class="mypoints">
+
+		<!-- 头部 -->
+		<ion-header-bar align-title="center" class="bar-assertive">
+			  <div class="buttons">
+			    	<button class="button button-icon icon ion-chevron-left" ng-click="gonews()"></button>
+			  </div>
+
+			  <h1 class="title">我的积分</h1>
+
+			  <div class="buttons">
+			    	<button class="button" ng-click="gopersonalCenter()">更多</button>
+			  </div>
+
+		</ion-header-bar>
+
+		<!-- <div class="bar bar-header bar-light">
+		  <button class="button button-icon icon ion-chevron-left" ng-click="gonews()"></button>
+		  <div class="h1 title">我的积分</div>
+		</div> -->
+
+
+		<!-- 内容 -->
+		<ion-content>
+
+
+			<div class="list">
+
+			    <a class="item item-avatar" href="#">
+			      <img src="./images/Headportrait.png">
+			      <h3 align-title="left">Amanda</h3>
+			      <p>积分：201314</p>
+			    </a>
+			</div>
+
+			<div class="title"><h2>精品兑换</h2></div>
+
+			<div class="exchange">
+				
+				<ul>
+
+					<li ng-repeat="item in data track by $index">
+
+						<p> {{item.text}} </p>
+
+						<span> {{item.points}} </span>
+
+						<div><img src="./images/Icecream.png"></div>
+
+
+					</li>
+
+
+					<li ng-repeat="item in datas track by $index">
+
+						<p> {{item.text}} </p>
+						
+						<span> </span>
+
+						<div><img src="./images/gift.png"></div>
+
+
+					</li>
+
+				</ul>
+
+
+				<!-- <div class="row">
+
+					  <div class="col">
+
+						  	<p>哈根达斯单球冰淇淋</p>
+
+						  	<span>￥26.8+88积分</span>
+
+						  	<div><img src="./images/Icecream.png"></div>
+
+					  </div>
+
+					  <div class="col">
+						
+							<p>哈根达斯单球冰淇淋</p>
+
+						  	<span>￥26.8+88积分</span>
+
+						  	<div><img src="./images/Icecream.png"></div>
+					  </div>
+				</div>
+
+				<div class="row">
+
+					  <div class="col">
+
+						  	<p>哈根达斯单球冰淇淋</p>
+
+						  	<span>￥26.8+88积分</span>
+
+						  	<div><img src="./images/Icecream.png"></div>
+					  </div>
+
+					  <div class="col">
+						
+							<p>哈根达斯单球冰淇淋</p>
+
+						  	<span>￥26.8+88积分</span>
+
+						  	<div><img src="./images/Icecream.png"></div>
+					  </div>
+				</div>
+
+
+				<div class="row">
+
+					  <div class="col">
+
+						  	<p>哈根达斯单球冰淇淋</p>
+
+						  	<span>￥26.8+88积分</span>
+
+						  	<div><img src="./images/Icecream.png"></div>
+					  </div>
+
+					  <div class="col">
+						
+							<p>更多兑换</p>
+
+						  	<span>.....   <div><img src="./images/gift.png"></div></span>
+					  </div>
+				</div> -->
+
+		    </div>
+
+
+
+
+
+		</ion-content>	
+
+		<!-- <div class="list">
+		    <div class="item item-avatar" href="#">
+		      	<img src="./images/Headportrait.png">
+			    <h2>Amanda</h2>
+			    <p>积分：201314</p>
+		    </div>
+		</div> -->
+
+
+
+		
+
+
+	</div>

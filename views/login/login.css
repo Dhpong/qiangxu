@@ -1,0 +1,70 @@
+
+
+.login{
+	height: 100%;
+}
+.rememberpassword{
+	padding-bottom: 30px;
+	margin-top: 10px;
+}
+.rememberpassword a{
+	float: right;
+	padding-right: 20px;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+/*.btn{
+	width: 100%;
+	margin:0 auto;
+}
+
+.button{
+	letter-spacing: 5px;
+	font-size: 24px !important;
+	font-weight: bold;
+	}*/
+
+.three h5{
+	text-align: center;
+	letter-spacing: 5px;
+	width: 220px;
+	background-color: #fff;
+	margin:0 auto;
+	font-size: 18px;
+}
+
+.three{
+	margin-top: 50px;
+	position: relative;
+}
+.three .hr{
+	border-top:2px solid #aaa;
+	position: absolute;
+	top:9px;
+	left:10%;
+	z-index: -999;	
+	width: 80%;
+	margin: 0 auto;
+}
+
+.three ul{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.three ul li{
+	width: 33.3333%;
+	float:left;
+	text-align: center;
+}
+
+.three ul li div{
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+

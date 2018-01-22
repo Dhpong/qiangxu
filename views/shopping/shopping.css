@@ -1,0 +1,23 @@
+
+
+
+.classfly{
+	margin-top: 10px;
+}
+.classfly ul{
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+}
+.classfly ul li{
+	float: left;
+	width: 20%;
+	margin-left: 4%;
+	background-color: #ddd;
+	height: 100px;
+}
+
+.classfly ul li span{
+	margin-top: 5px;
+	text-align: center;
+}

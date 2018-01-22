@@ -1,0 +1,37 @@
+.item-thumbnail-left span{
+	/*display: inline-block;*/
+	float: right;
+}
+
+.unprice{
+	position: relative;
+	right: -43px;
+}
+
+
+.exit{
+	overflow: hidden;
+}
+.exit p{
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.exit p i{
+	font-size: 26px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.exit span{
+	float: right;
+	margin-right: 10px;
+	background-color: #aaa;
+	padding: 5px;
+}
+
+.list02{
+	margin-bottom: 50px !important;
+}
+  

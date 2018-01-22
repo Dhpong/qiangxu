@@ -1,0 +1,84 @@
+
+<div class="newproduce">
+	
+	<ion-header-bar align-title="center" class="bar-positive">
+			  <div class="buttons">
+			    <button class="button ion-chevron-left" ng-click="gohome()"></button>
+			  </div>
+			  <h1 class="title">新品专区</h1>
+			  <div class="buttons">
+			    <button class="button ion-android-cart" ng-click="doSomething()"></button>
+			  </div>
+	</ion-header-bar>
+
+	
+	<div class="main">
+		<div class="left">
+
+			<ul ng-controller="newproduceController">
+				<h5>为您推荐</h5>
+				<li ng-repeat="item in data track by $index">
+					<span> {{item.name}} </span>
+				</li>
+			</ul>
+
+
+		</div>
+
+		<div class="right">
+
+			<div class="medical">
+
+				<div class="title">
+					<h5>医疗护具</h5>
+					<div class="bgline"></div>
+				</div>
+
+				<div class="meproduce">
+					<ul>
+						<li ng-repeat="meproduce in medical track by $index">
+
+							<img ng-src="{{meproduce.imgurl}}">
+
+							<span> {{meproduce.text}} </span>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+
+			<div class="blister">
+
+				<div class="title">
+					<h5>吸塑产品</h5>
+					<div class="bgline"></div>
+				</div>
+
+				<div class="bproduce">
+					<ul>
+						<li ng-repeat="bproduce in blister track by $index">
+
+							<img ng-src="{{bproduce.imgurl}}">
+							
+							<span> {{bproduce.text}} </span>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+
+	
+		</div>
+
+
+		
+	</div>	
+
+
+
+
+
+
+</div>

@@ -1,0 +1,39 @@
+
+<div class="news">
+
+	<!-- 头部 -->
+	
+		<ion-header-bar align-title="center" class="bar-positive">
+			  <div class="buttons">
+			    <button class="button ion-chevron-left" ng-click="goabout()"> 返 回</button>
+			  </div>
+			  <h1 class="title">消 息</h1>
+			  <div class="buttons">
+			    <button class="button ion-chevron-right" ng-click="gohelp()"></button>
+			  </div>
+		</ion-header-bar>
+
+		<ion-content>
+
+			<div class="list" ng-controller="newsController">
+
+				    <a class="item  item-thumbnail-left" href="#" ng-repeat="item in data track by $index">
+				      <img ng-src="{{item.imgurl}}">
+				      <h2> {{ item.title }}  <span> {{item.time}} </span></h2>
+				      <p> {{ item.declu }} </p>
+				    </a>
+
+			</div>
+		
+		</ion-content>
+
+	<!-- 消息 -->
+	
+	
+
+
+
+
+
+</div>	
+	

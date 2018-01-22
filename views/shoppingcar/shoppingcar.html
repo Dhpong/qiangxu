@@ -1,0 +1,57 @@
+
+
+<div class="shoppingcar">
+	<!-- 头部 -->
+	
+		<ion-header-bar align-title="center" class="bar-assertive">
+			  <div class="buttons">
+			    <button class="button button-icon ion-chevron-left" ng-click="goabout()"></button>
+			  </div>
+			  <h1 class="title">购物车</h1>
+			  <div class="buttons">
+			    <button class="button button-icon " ng-click="gohelp()">编辑</button>
+			  </div>
+		</ion-header-bar>
+	
+
+
+	<ion-footer-bar align-title="right" >
+		<ul class="list">
+
+		  <li class="item item-checkbox">
+		     <label class="checkbox checkbox-assertive">
+		       <input type="checkbox">
+		     </label>
+		     全选
+		  </li>
+		</ul>
+	    <h1 class="title">合计：<span><i class="ion-social-yen-outline"></i> 1776  </span></h1>
+	  <div class="buttons" ng-click="doSomething()">
+	    <button class="button button-assertive">结算<span>(1)</span></button>
+	  </div>
+	</ion-footer-bar>
+
+
+	
+	<ion-tabs class="tabs tabs-light tabs-icon-top">
+
+				  <ion-tab title="首页" icon-on="ion-ios-home" icon-off="ion-ios-home-outline" ng-click="gohome()">
+				    <!-- 标签 1 内容 -->
+				  </ion-tab>
+
+				  <ion-tab title="商城" icon-on="ion-tshirt" icon-off="ion-tshirt-outline" ng-click="goshopping()" >
+				    <!-- 标签 2 内容 -->
+				  </ion-tab>
+
+				  <ion-tab title="购物车" icon-on="ion-android-cart" icon-off="ion-ios-cart-outline" ng-click="goshoppingcar()">
+				    <!-- 标签 3 内容 -->
+				  </ion-tab>
+
+				   <ion-tab title="我的" icon-on="ion-android-person" icon-off="ion-android-contact" ng-click="gomy()">
+				    <!-- 标签 3 内容 -->
+				  </ion-tab>
+
+	</ion-tabs>
+	
+
+</div>

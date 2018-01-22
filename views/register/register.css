@@ -1,0 +1,41 @@
+
+.title{
+	font-size: 24px;
+	letter-spacing: 5px;
+	text-align: center !important;
+}
+
+.ion-chevron-left{
+	padding-top: 5px;
+ 	font-size: 24px !important;
+}
+*/
+/*.accounts,.password{
+	width: 100px;
+	display: inline-block;
+}*/
+
+
+.codes{
+	position: relative;
+}
+ .code{
+ 	padding: 5px;
+    background-color: #eee;
+    position: absolute;
+    right: 10px;
+ }
+
+ .input-label {
+    width: 30%;
+}
+.checkbox, .radio {
+    position: relative;
+    display: block;
+     margin-top: 0; 
+     margin-bottom: 0; 
+}
+
+.checkbox {
+     padding: 0; 
+}

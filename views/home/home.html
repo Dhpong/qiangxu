@@ -1,0 +1,174 @@
+﻿<div class="homepage">	
+
+		<!-- 头部 -->
+		<ion-header-bar align-title="left" class="bar-light">
+			<div class="buttons">
+			    <button class="button icon ion-android-expand" ng-click="doSomething()"></button>
+			</div>
+			<div class="search ">
+				<i class="ion-ios-search-strong"></i>
+				<input type="text" name="">
+			</div>
+			  <div class="buttons" ng-click="goinformation()">
+			    <button class="button ion-chatbox-working"></button>
+			  </div>
+		</ion-header-bar>
+
+		<!-- 内容 -->
+		<ion-content>
+			
+			<!-- banner轮播 -->
+			<div id="myCarousel" class="carousel slide">
+				<!-- 轮播（Carousel）指标 -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" 
+						class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>   
+				<!-- 轮播（Carousel）项目 -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="./images/Home_banner.png" alt="First slide">
+					</div>
+					<div class="item">
+						<img src="./images/Home_banner02.png" alt="Second slide">
+					</div>
+					<div class="item">
+						<img src="./images/Home_banner.png" alt="Third slide">
+					</div>
+					<div class="item">
+						<img src="./images/Home_banner02.png" alt="Second slide">
+					</div>
+					<div class="item">
+						<img src="./images/Home_banner.png" alt="Third slide">
+					</div>
+				</div>
+				<!-- 轮播（Carousel）导航 -->
+				<a class="carousel-control left" href="#myCarousel" 
+				   data-slide="prev">&lsaquo;</a>
+				<a class="carousel-control right" href="#myCarousel" 
+				   data-slide="next">&rsaquo;</a>
+			</div> 
+
+
+			<div class="classfly">
+
+				<ul ng-controller="homeController">
+					<li ng-repeat="item in data track by $index">
+
+						<img ng-src="{{item.imgurl}}" />
+
+						<span>{{item.desc}}</span>
+					</li>
+				</ul>
+			</div>
+
+			<div class="select">
+				
+            	<div class="title">
+            		<h3>爆款精选</h3>
+            		<div class="decoraction"></div>
+            	</div>
+
+				<div class="fl">
+					<img src="./images/homeproduce01.png">
+					<span>护脚踝（气垫款）</span>
+					<p>了解详情 >> </p>
+				</div>
+
+				<div class="fr">
+					<ul ng-controller="homeController">
+
+						<li ng-repeat="select in produce track by $index">
+							<img ng-src="{{select.imgurl}}" >
+
+							<p>{{select.title}}</p>
+
+							<span>{{select.indule}}</span>
+						</li>	
+					</ul>
+
+
+				</div>
+			</div>
+
+			<div class="recommend">
+				<div class="title">
+            		<h3>爆款精选</h3>
+            		<div class="decoraction"></div>
+            	</div>
+
+            	<div class="recommendproduce">
+
+            		<ul ng-controller="homeController">
+
+            			<li ng-repeat="recommend in produces track by $index">
+
+            				<div class="fl"><img ng-src="{{recommend.imgurl}}"></div>
+
+            				<div class="fr">
+            					<p> {{ recommend.etitle }} </p>
+            					<img src="./images/Home_modules07.png">
+            				</div>
+            			</li>
+            		</ul>
+
+            	</div>
+
+			</div>
+
+
+			<div class="newproduce">
+				
+				<div class="title">
+            		<h3>爆款精选</h3>
+            		<div class="decoraction"></div>
+            	</div>
+
+            	<div class="newproduces">
+            		
+            		<ul ng-controller="homeController">
+
+            			<li ng-repeat="new in newproduce track by $index">
+
+            				<div class="img"><img ng-src="{{new.imgurl}}"></div>
+
+            				<p> {{ new.text }}    <span> 详 情 》 </span></p>
+            			</li>
+            		</ul>
+
+            	</div>
+
+			</div>
+
+			
+
+
+		</ion-content>
+
+
+		<ion-tabs class="tabs tabs-light tabs-icon-top">
+
+				  <ion-tab title="首页" icon-on="ion-ios-home" icon-off="ion-ios-home-outline" ng-click="gohome()">
+				    <!-- 标签 1 内容 -->
+				  </ion-tab>
+
+				  <ion-tab title="商城" icon-on="ion-tshirt" icon-off="ion-tshirt-outline" ng-click="goshopping()" >
+				    <!-- 标签 2 内容 -->
+				  </ion-tab>
+
+				  <ion-tab title="购物车" icon-on="ion-android-cart" icon-off="ion-ios-cart-outline" ng-click="goshoppingcar()">
+				    <!-- 标签 3 内容 -->
+				  </ion-tab>
+
+				   <ion-tab title="我的" icon-on="ion-android-person" icon-off="ion-android-contact" ng-click="gomy()">
+				    <!-- 标签 3 内容 -->
+				  </ion-tab>
+
+	</ion-tabs>
+		
+
+</div>

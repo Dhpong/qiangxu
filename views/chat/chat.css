@@ -1,0 +1,96 @@
+/*.ion-mic-a,.ion-happy-outline,.ion-ios-plus-outline{
+	font-size: 24px !important;
+
+}*/
+
+ion-footer-bar .ipt{
+	min-width: 70%;
+	border-bottom: 1px solid #aaa;
+}
+
+ion-footer-bar input{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+	line-height: 18px;
+	outline: none;
+	border: 0;
+	padding-right: 5px;
+	background-color: transparent;
+}
+
+.time p{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.chat_01{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.chat_01 .person {
+	display: inline-block; 
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-right: 10px;
+}
+
+.chat_02 .logo{
+	display: inline-block; 
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 10px;
+}
+
+.chat_02{
+	clear: both;
+	overflow: hidden;
+	margin-bottom:10px;
+}
+.chat_01 .dialog{
+	display: inline-block;
+	max-width: 70%;
+	float: right;
+	position: relative;
+	/*overflow: hidden;*/
+}
+
+.chat_01 .dialog p{
+	line-height: 18px;
+    margin: 5px 5px 0 0;
+    background: #9CC;
+    padding: 5px;
+}
+
+.chat_01 .dialog span{
+	position: absolute;
+	left: -70%;
+}
+
+
+
+.chat_02 .reply p{
+	max-width: 70%;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #EE9;ock;
+}
+
+ .chat_02 .reply h5{
+   	margin-left: 10px;
+   	margin-top: 0;
+    display: inline-block;
+   } 
+
+ .bar-stable .btn02{
+ 	position: absolute;
+ 	right:5px;
+ }
+
+.bar .button, .bar button {
+    padding:0;
+}
+

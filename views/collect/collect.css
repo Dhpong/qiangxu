@@ -1,0 +1,10 @@
+.item-thumbnail-left span{
+	/*display: inline-block;*/
+	float: right;
+}
+
+.unprice{
+	position: relative;
+	right: -43px;
+}
+  

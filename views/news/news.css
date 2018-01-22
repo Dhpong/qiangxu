@@ -1,0 +1,16 @@
+
+.ion-chevron-left,.ion-chevron-right{
+	font-size: 18px !important;
+}
+
+.list h2{
+	margin-top: 10px;
+}
+
+.list h2 span{
+	float: right;
+}
+
+.list p{
+	margin-top: 10px;
+}

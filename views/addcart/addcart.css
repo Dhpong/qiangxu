@@ -1,0 +1,73 @@
+
+.addcart{
+	overflow: hidden;
+}
+
+.has-footer {
+    top: 100px;
+}
+
+.list .fr{
+	float: right;
+}
+
+.list .fr i{
+	font-size: 36px;
+}
+
+.item-content p{
+    white-space: pre-wrap;
+}
+
+
+.classify p{
+	margin-left: 15px;
+}
+
+.classify ul li{
+	width: 70%;
+	margin-top: 5px;
+	margin-left: 10px;
+	background-color: #aaa;
+	border-radius: 5px;
+}
+
+
+.number{
+	overflow: hidden;
+	margin-top: 30px;
+	border-bottom: 1px solid #aaa;
+	border-top: 1px solid #aaa;
+	padding: 15px 0;
+}
+.number .fl{
+	float: left;
+	width: 30%;
+	text-align: center;
+	line-height: 42px;
+	margin-left: 10px;
+}
+
+.number .fl span{
+	font-size: 18px;
+}
+
+.number .fr{
+	width: 50%;
+	float: right;
+	text-align: center;
+}
+
+.number .fr i{
+	font-size: 28px;
+}
+
+.number .fr span{
+	display: inline-block;
+	height: 28px;
+	width: 30px;
+	line-height: 28px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 28px;
+}

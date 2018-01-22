@@ -1,0 +1,47 @@
+.btn{
+	text-align: center;
+	overflow: hidden;
+	width: 100%；
+
+}
+
+.col{
+}
+
+.effective,.overdue{
+	height: 40px;
+	line-height: 40px;
+	outline: none;
+	border: 0;
+	border-radius: 5px;
+}
+
+.effective{
+	background-color: #e4393c;
+}
+
+.overdue{
+	float: right;
+	
+}
+.col-33{
+	border-radius: 5px 20px 20px 5px;
+	background-color: #e43a3d;
+}
+
+.cols{
+	border-radius: 20px 5px 5px 20px;
+}
+
+.Coupon{
+	margin-top: 5px !important;
+	margin-bottom: 10px !important;
+}
+
+.row+.row {
+    padding-top: 0;
+}
+
+.row {
+     margin-left:0px; 
+}
